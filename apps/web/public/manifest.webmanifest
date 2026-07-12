@@ -1,0 +1,15 @@
+{
+  "name": "Anact Ortho",
+  "short_name": "Anact Ortho",
+  "description": "Edge AI referee, commentator, and scout inside your smartphone.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050914",
+  "theme_color": "#050914",
+  "icons": [
+    { "src": "/logo.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "/logo.png", "sizes": "1024x1024", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

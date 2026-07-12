@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "types": ["react-native", "expo-router"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@app/*": ["./app/*"],
+      "@courtvision/core": ["../../packages/core/src/index.ts"],
+      "@courtvision/core/*": ["../../packages/core/src/*"],
+      "@courtvision/vision": ["../../packages/vision/src/index.ts"],
+      "@courtvision/vision/*": ["../../packages/vision/src/*"],
+      "@courtvision/tokens": ["../../packages/tokens/src/index.ts"],
+      "@courtvision/tokens/*": ["../../packages/tokens/src/*"]
+    }
+  },
+  "include": ["app", "src", "app.config.ts", "babel.config.js", "metro.config.js"]
+}
